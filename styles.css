@@ -1,0 +1,199 @@
+/* General Body & Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* Header & Navigation */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: #1abc9c 4px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    color: #1abc9c;
+    font-weight: 700;
+}
+
+/* Main Content Section */
+main {
+    padding: 2rem 0;
+}
+
+.content-section {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 1rem auto;
+    border: 3px solid #1abc9c;
+}
+
+blockquote {
+    border-left: 5px solid #1abc9c;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Resume Page Specifics */
+.resume-item {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.resume-item:last-child {
+    border-bottom: none;
+}
+
+.resume-item h4 {
+    margin-bottom: 0.2rem;
+}
+
+.resume-item p {
+    margin: 0;
+    font-style: italic;
+    color: #555;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background: #1abc9c;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Contact Form Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Important for consistent sizing */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #1abc9c;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #1abc9c;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #16a085;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    display: none; /* Hidden by default */
+}
+
+.success-message {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: #2c3e50;
+    color: #fff;
+}
